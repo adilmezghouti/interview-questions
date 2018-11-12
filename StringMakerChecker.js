@@ -1,15 +1,15 @@
 /**
- * check if the input bucket array could make a given string
- * @param {*} inputArray
+ * check if the input bucket array could make up a given string
+ * @param {*} inputArrayBucket
  * @param {*} inputString
  */
-const checkIfArrayCouldMakeString = (inputArray, inputString) => {
+const checkIfArrayCouldMakeString = (inputArrayBucket, inputString) => {
     // generate an empty array
     const db = [...Array(500).fill(0)];
 
     // convert inputArray to an array of character asciis and
     // use them as indices to mark their existence
-    inputArray.forEach((element) => {
+    inputArrayBucket.forEach((element) => {
         db[element.charCodeAt(0)] += 1;
     });
 
