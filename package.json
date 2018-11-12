@@ -2,7 +2,6 @@
   "name": "interview-questions",
   "version": "1.0.0",
   "description": "Solutions for some interview questions",
-  "main": "StringMakerChecker.js",
   "scripts": {
     "test": "nyc mocha --require @babel/register ./test*.js",
     "eslint": "eslint *.js"
