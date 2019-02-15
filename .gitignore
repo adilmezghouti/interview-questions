@@ -1,4 +1,7 @@
 /dist
+.idea
 /node_modules
 *.log
 .nyc_output
+.idea/inspectionProfiles/Project_Default.xml
+*.iml
